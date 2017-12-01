@@ -1,0 +1,136 @@
+package com.ximai.savingsmore.library.net;
+
+
+import com.ximai.savingsmore.library.constants.AppConstants;
+
+/**
+ * @author wangguodong
+ */
+public interface URLText {
+    public static final String img_url = "http://fileupload.savingsmore.com/ServerFiles/";
+    public static final String upLoad = "http://fileupload.savingsmore.com/api/";
+
+    public static final String baseUrl = AppConstants.BASEURL;
+    //登录接口
+    public static final String LOGIN_URL = baseUrl + "Account/Signin";
+    //发送验证码
+    public static final String SEND_CODE = baseUrl + "SMS/SendCode";
+    //注册
+    public static final String REGISTER_CODE = baseUrl + "Account/Signup";
+    //找回密码
+    public static final String RESET_PASSWORD = baseUrl + "Account/ForgetPassword";
+    //得到商品
+    public static final String GET_GOODS = baseUrl + "Product/QueryProductList";
+    //得到商品详情
+    public static final String GET_GOOD_DETIAL = baseUrl + "Product/Detail";
+    //得到用户的信息
+    public static final String GET_USERINFO = baseUrl + "User/QueryMyInfo";
+    //    //得打商店促销的商品
+    public static final String GET_SALES_GOODS = baseUrl + "Product/QueryMyProduct";
+    //添加收藏商品
+    public static final String ADD_COLLECT = baseUrl + "Product/Favourite";
+    //取消收藏商品
+    public static final String CANCEL_COLLECT = baseUrl + "Product/RemoveFavourite";
+    // 添加收藏店铺
+    public static final String ADD_COLLECT_BUSINESS = baseUrl + "User/Favourite";
+    //取消收藏店铺
+    public static final String CANCEL_COLLECT_BUSINESS = baseUrl + "User/RemoveFavourite";
+    //收藏的商品
+    public static final String COLLECT_GOODS = baseUrl + "Product/QueryFavourite";
+    //收藏的店铺
+    public static final String COLLECT_BUSINESS = baseUrl + "User/QueryFavourite";
+    //获取店铺 的信息
+    public static final String USER_DETIAL = baseUrl + "User/Detail";
+    //商品评论
+    public static final String GOODS_COMMENT = baseUrl + "Comment/QueryComment";
+    //发表评论
+    public static final String SUBMIT_COMMENT = baseUrl + "Comment/SubmitComment";
+    //上传图片
+    public static final String UP_LOAD = baseUrl + "FileManager/UploadFile";
+    //查询基础字典
+    public static final String QUERYDICNODE = baseUrl + "DictNode/QueryDictNode";
+    //查询基础字典3
+    public static final String QUERYDICNODE3 = baseUrl + "DictNode/QueryDictNode2";
+    //查询基础字典2
+    public static final String QUERYDICNODE2 = baseUrl + "DictNode/QueryDictNode3";
+    //获取我的资料
+    public static final String OUERY_MYINFO = baseUrl + "User/QueryMyInfo";
+    //上传图片
+    public static final String UPLOAD_IMAGE = upLoad + "FileManager/UploadFile";
+    //保存个人信息
+    public static final String SAVE_MESSAGE = baseUrl + "User/SaveMyInfo";
+    //保存商品信息
+    public static final String SAVEMYPRODUCT = baseUrl + "Product/SaveMyProduct";
+    //申请分类
+    public static final String APPLY_CLASSITY = baseUrl + "Product/SaveProductClass";
+    //申请品牌
+    public static final String SAVEBRAND = baseUrl + "Product/SaveBrand";
+    //商家列表
+    public static final String BUSINESS_LIST = baseUrl + "User/QuerySellerList";
+    //得到环信
+    public static final String USERBYIM = baseUrl + "User/QueryUserByIM";
+    //发表留言
+    public static final String SEND_MESSAGE = baseUrl + "Message/SendMessage";
+    //退出登录
+    public static final String LOGIN_OUT = baseUrl + "Account/Signout";
+    //保存推送设置
+    public static final String SET_PUSH = baseUrl + "User/SavePush";
+    //推送商品
+    public static final String PUSH_GOODS = baseUrl + "Product/QueryPush";
+    //移除推送的商品
+    public static final String REMOVE_PUSH_GOODS = baseUrl + "Product/RemovePush";
+    //查询注册人数
+    public static final String REGISTER_NUMBER = baseUrl + "Account/QueryRegisterStatistics";
+    //侧栏统计
+    public static final String MENU_NUMBER = baseUrl + "User/QueryUserStatistics";
+    //移除商品
+    public static final String REMOVE_MYGOODS = baseUrl + "Product/RemoveMyProduct";
+    //第三方登录
+    public static final String THIRD_LOGIN = baseUrl + "Account/ExternalSignin";
+    //积分统计
+    public static final String GET_POINT = baseUrl + "PointRecord/QueryPointStatistics";
+    //我的订单
+    public static final String GET_ORDER = baseUrl + "Order/QueryMyOrder";
+
+    //商铺订单
+    public static final String BUSINESS_GET_ORDER = baseUrl + "Order/QuerySellerOrder";
+    //分享App
+    public static final String SHARE_APP = baseUrl + "Account/SharedApp";
+    //更新购物车
+    public static final String UPDATE_CAR = baseUrl + "Cart/UpdateProduct";
+    //得到购物车
+    public static final String GET_MYCAR = baseUrl + "Cart/QueryMyCart";
+    //提交订单
+    public static final String SUBMIT_ORDER = baseUrl + "Order/SubmitOrder";
+    //支付宝支付签名
+    public static final String ALIPAY_SIGN = baseUrl + "Order/AlipaySign";
+    //查看支付结果
+    public static final String PAY_RESULT = baseUrl + "Order/PayResult";
+    //积分抵扣
+    public static final String JIFEN_DIKOU = baseUrl + "Order/PreviewOrder";
+    //订单详情
+    public static final String ORDER_DETIAL = baseUrl + "Order/MyOrderDetail";
+    //商家订单详情
+    public static final String BUSINESS_ORDER_DETIAL = baseUrl + "Order/SellerOrderDetail";
+    //微信生成交易单
+    public static final String WECHAT_SIGN = baseUrl + "Order/WeChatPayUnifiedOrder";
+    //客服列表
+    public static final String SERVICE_LIST = baseUrl + "DictNode/QueryService";
+    //确认订单
+    public static final String RECEIPEMY_ORDER = baseUrl + "Order/ReceipteMyOrder";
+    //申请退款
+    public static final String QUIT_MONEY = baseUrl + "Order/RefundMyOrder";
+    //发货
+    public static final String FAHUO = baseUrl + "Order/ShippeSellerOrder";
+    //取消订单
+    public static final String CANAEL = baseUrl + "Order/SellerCancelOrder";
+    //清空购物车
+    public static final String CLEAR_CAR = baseUrl + "Cart/ClearMyCart";
+    //绑定邮箱
+    public static final String bindemail = baseUrl + "User/BindEmail";
+    //回复评论
+    public static final String replyComment = baseUrl + "Comment/ReplyComment";
+    //得到红包个数
+    public static final String redPacket = baseUrl + "User/QueryReadPacketCount";
+
+}

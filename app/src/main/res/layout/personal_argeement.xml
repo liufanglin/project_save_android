@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="“省又省”APP实体商户服务协议"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/max"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="甲方：注册省又省APP为使用本产品的主体"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="地址：注册地址为准"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="联系电话：注册信息为准"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="责任人：注册信息为准"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="乙方：上海西麦企业管理咨询有限公司"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="地址：上海市崇明秀山路8号3幢三层K区2120室"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="联系电话：021-58366991"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="邮件: savingsmore@talentmore.com"
+            android:textColor="@color/text_black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="        甲乙双方都保证其是依据中国法律合法成立并有效存续的法人或其他商事主体，能够独立承担法律责任，并具有履行本合同所需一切权利及能力。\n\n       甲方是一家实体商业性组织，具备了实体经营地址而且具备所售商品的所有权及销售的资质；\n\n        乙方具备了省又省APP的全部权益及出租给甲方使用的资质。\n\n       根据《中华人民共和国合同法》及相关法律、法规的规定，甲乙双方在互惠互利、合作共赢的基础上，关于甲方向乙方租用省又省 APP的用于快速提高本商户的提袋商品（即有形商品）或非提袋商品（无形的服务产品）的销售数量的事宜，经充分友好协商达成（“省又省”APP实体商户服务协议），以下简称“本协议”。双方共同遵守执行。"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="第一部分：商务条款"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="    一,甲方责任"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="1、支付数额、支付形式及时间："
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="甲方自愿下载省又省APP,租用乙方省又省APP及PC管理后台的使用权,同意按以下方式支付租金费用："
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="1）按使用时间的长短支付模式：\n
+\nA类商户 第一年免租用费（新开业3个月）但是支付500元后台设置费；\n\n
+B类商户：3000元/年（年营业额在50万元以下，包括设置费）；\n\n
+C类商户：6000元/年（年营业额在51-100万，包括设置费）；\n\n
+D类商户：12000元/年（年营业额在101-300万，包括设置费）；\n\n
+E类商户 24000元/年（年营业额在301-600或以上，包括设置费）；\n\n
+支付时间：甲方发布30件促销商品或注册后100天内。\n\n
+2）按使用效果模式支付：每单销售额按客户的实际支付货款的5%的佣金提成（设置费500元另付）。\n\n
+佣金的支付时间：销售佣金支付时间每月两次，与货款结算同时进行。设置费支付时间是甲方发布30件促销商品或注册后100天内。\n\n
+"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2、送货服务及责任：\n\n
+\t甲方知晓有义务为省又省客户安排购买货物送货服务，有权另收或放弃收取送货费；\n
+\n3、	积分让利：\n\n
+\t甲方支持购买客户使用积分现金抵扣的让利方式，同意给每次消费实际支付数额0-3%以内的让利，以积分抵扣的形式换取，鼓励客户再次回头消费；\n\n4、按国家相关法律规定，对消费者提供7天无理由退货的的服务。\n\n
+"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     二 ,乙方责任："
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="1、乙方负责省又省APP及PC管理平台运行正常，甲方正常使用时无障碍；\n\n
+2、全力协助商户给消费者提供高质量的服务，确保用户的满意度；\n\n
+3、省又省APP及PC专属管理后台出现BUG，致使甲方不可正常使用（人力不可抗拒原因除外），乙方负责退还已经支付的租金费用给甲方或不向甲方收取租金，退还金额或不收数量按没有使用的比例执行；\n\n
+4、省又省采取各种形式帮助消费客户筹集积分，并且支持客户积分“通吃”和积分不过期的做法，而且鼓励用户用积分兑现包括不限于积分兑换商品、积分折换运费及积分变现金等。\n\n"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="第二部分：权益和义务\n\n
+一、	甲方权利及义务：\n\n
+1）甲方自愿申请入驻或退出“省又省”促销平台，下载省又省APP。使用省又省APP及PC管理后台，获取资源及收益包括： \n\n
+ 在省又省APP及PC平台发布商品或服务的促销信息无限制；\n\n
+	拥有省又省平台全部客户联系方式的使用权益，无限制向省又省客户推送促销商品；\n\n
+	向省又省客户点对点和群发促销推送通知不受任何限制；\n\n
+	在省又省平台7-24小时展示合法促销商品、商铺、品牌及服务质量的权益不受限制；\n\n
+	快速销售库存商品；\n\n
+	精准获取市场反馈信息，及时调整经营品种及库存结构；\n\n
+	借助发布促销信息的手段，吸引客户进店，带动其他商品随机消费的顺利实现。\n\n
+2）要求“省又省”购买客户按自己的商品促销规则进行购买或消费；\n\n
+3）在不损害“省又省”客户的利益前提下，自主取消或不执行促销活动的内容；\n\n
+4）向“省又省”客户直接报价收取送货服务费或其他客户认可的费用；\n\n
+6）向“省又省”平台收取促销商品或其它非促销商品销售的货款；\n\n
+7） 在“省又省”促销平台发布的商户注册及商品促销信息及时并准确；\n\n
+8）按质按量按时兑现在省又省发布的全部促销信息的全部承诺；\n\n
+9）在“省又省”发布的促销力度不小于其他任何渠道；包括不限于品牌、品种、数量、优惠程度及促销时间的长短等；\n\n
+10）在“省又省”发布的促销商品或服务属于本店的正常经营的商品范围，并且完全符合国家法律、法规、规章的规定；否则由此造成的乙方用户投诉、索赔、经济损失等相关后果均由甲方承担；\n\n
+11）如“省又省”用户要求商品发票或送货服务，由甲方负责提供，所产生费用由甲方与购买者协商达成一致意见，原则上“省又省”支持甲方向购买者收取送货费，但是不另收发票开出费用；\n\n
+12）甲方提供的银行账户信息须准确，如发生变化应立即通知乙方，否则，由此造成的款项延误等后果均由甲方承担；\n\n
+13）甲方可以通过用户名和密码登陆“省又省”商家后台，发布、撤换及补充促销商品的信息，甲方应对密码安全实施负责，甲方不得以任何形式将用户名和密码转让或泄露给第三方；\n\n
+14）甲方保证支持并引导乙方用户使用“省又省”搜寻、比对及下单购买促销商品，不得唆使或引导乙方用户放弃在省又省APP上订货及下单支付；\n\n
+15）甲方应杜绝一切消费欺诈行为，杜绝无故取消订单行为，杜绝无故不发货行为；\n\n
+16）向“省又省”按时支付APP使用金（促销推广费用)；\n\n
+17）接受并支持“省又省”作为支付第3方担保的角色，在乙方用户安全收到所购货或服务后，再与“省又省”定期结算货款或服务费，每月两次，单月1-14号完成交易，在本月30号支付；在15-30号完成交易，在次月15号支付。\n\n
+
+一、	乙方权利与义务\n
+1）乙方自愿向甲方出让本协议项下约定的省又省促销APP以及PC管理后台的平台的资源的使用，有权向甲方收取使用费；\n\n
+2）如甲方违反本协议项下甲方的义务条款约定的义务，乙方有权单方面随时告知解除本合同，并操作甲方商品信息下线；\n\n
+3）乙方有权对甲方发布的内容、信息进行审核，必要时可删改。乙方有权利对不符合法律法规、政策规定的内容予以删改或拒绝发布，但甲乙双方确认，乙方的前述审核、删改不为乙方设置任何义务，也不免除甲方根据本协议应承担的责任；\n\n
+4）凡甲方已经在乙方上线的促销商品及相应服务内容，未经甲方同意乙方不得进行任何形式直接或间接的取消或变更，如因特殊原因乙方确实需要进行变更或取消的，由乙方至少提出5个工作日告知甲方，并由双方另行协商对页面做相应的调整后方可进行变更；\n\n
+5）如乙方用户就甲方促销商品的交易发生后向乙方投诉，乙方经核实后，有权要求甲方负责解决该投诉的项目；\n\n
+6）乙方应按协议中双方约定的结算方式，定期（每月2次）由乙方授权代表结算/系统自动结算的方式为甲方支付一切费用，包括货款、订单退款或其他业绩返利等；\n\n
+7）乙方用户退订情形，乙方应在收到退订申请后告知甲方取消对应的销售或发货，乙方不承担任何经济损失。\n\n
+第三部分：知识产权\n\n
+双方的本协议各自的品牌、名称、技术、商业模式、专利权保护内容如营销手段和软件技术归各自所有。客户的信息包括姓名、联系方式等归乙方所有；但是在甲方商户购买过一次以上商品或服务的客户归双方共同所有。甲、乙双方均不可在对方未经授权的情况下使用对方的以上明确规定的所有权管理资源进行有意或无意的商务活动，如违反，因此产生的所有不良后果及损失违约方全部承担。\n\n
+第四部分：违约责任\n\n
+1、任何一方违反本协议所规定的义务导致另一方收到包括但不限于投诉、举报、诉讼或处罚、赔偿等损失，违约方在收到守约方要求纠正其违约行为的书面通知之日，应立即停止其违约的行为，并在10日内赔偿守约方因此受到的所有损失。
+\n\n2、本协议任何一方均应对其获得的对方的业务、经营、财务状况和其他保密资料予以严格保密，不得以任何形式向任何第三方披露。如因任何一方未能履行保密义务而给其他方造成任何损失的，应承担赔偿责任。
+\n\n第五部分：协议开始、终止及更新\n\n
+1、本协议期限为甲方入驻开始日起至12个月后止；\n\n
+2、本合同终止后，乙方有权自动删除省又省APP及PC平台上的甲方已发布的促销商品信息，且有权拒绝提供相关信息；乙方有权保存甲方资质信息、商品信息、交易记录等相关资料；\n\n
+3、由于本APP的软件更新，旧版无法使用，甲方无法保证旧版的相关服务内容的有效性，请乙方及时下载省又省更新版本，按新版内容执行。\n\n
+第六部分：免责条款\n\n
+        因战争、自然灾害、政府行为、互联网系统故障、互联网通讯提供商故障等不可抗力因素导致“省又省”促销信息不能正常运行，乙方无须承担责任。\n\n
+第七部分：争议解决\n\n
+        本协议项下争议由双方友好协商解决，无法达成一致情形，任何一方有权将整体提交至乙方所在地有管辖权的人民法院诉讼解决。\n\n
+
+本合同分为7个部分组成，每个部分都是本合同不可分割的组成部分，与本合同具有同等法律效力。\n\n
+       与本协议在APP及PC端的注册协议中有完整的内容，说明甲方向乙方发出与本协议有关的通知，乙方在完成注册协后，即表示乙方已经充分阅读、理解并接受本协议的全部内容，成为省又省APP的正式注册用户，本协议正式生效，甲方开始享受各类服务。\n\n
+
+\n  甲方：入驻省又省APP及PC后台的主体商户\n\n
+乙方：上海西麦企业管理咨询有限公司\n\n
+2016年12月
+"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

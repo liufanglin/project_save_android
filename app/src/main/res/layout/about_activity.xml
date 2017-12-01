@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/icon" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:text="      省又省是一款实体商户名牌商品促销专卖APP。它给消费者及时推送品牌商品促销讯息，也让用户在线购买促销中的名牌商品或服务。"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:text="     我们的用户这样说：“只需要省又省一款APP，所有促销中的名牌商品都可以买到！”。在手机上设置好您需要购买的商品，省又省搜索实体商户，将发现的促销信息按您的旨意及时发送给你，供您比较、挑选和购买；您可以选择不去店铺，节省时间，在手机上下单抢购，安排促销商户送货；您也可以让省又省导航带你去商家，查看品质，边逛店，边选购，无需排队结算，一键支付，自提商品离店回家。"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:text="用户帮助:"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="如果您付款或消费遇到问题，请联系客服人员：021-58366991\n邮箱：savingsmore@talentmore.com"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:text="商铺入驻:"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="如果您希望在省又省 平台快速发布及传播促销信息，请与我们联系。\n邮箱：savingsmore@talentmore.com"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+    </LinearLayout>
+
+
+</ScrollView>

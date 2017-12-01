@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="《省又省用户服务协议》"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/max"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="        感谢您成为省又省的注册用户。 《省又省用户服务协议》（以下简称“本协议”）是由省又省用户移动端应用程序的用户（以下简称“用户或您”）与省又省的运营方，即上海西麦企业管理咨询有限公司（以下简称“省又省”）之间， 就省又省APP服务等相关事宜共同缔结。\n
+            \n        本协议具有合同效力，您应当阅读并遵守本协议。请您务必仔细阅读、充分理解各条款内容。本站的各项电子服务的所有权和运作权归省又省所有。您同意并点击注册时，阅读了协议的全文，并且完全理解其内容，注册成功后，协议自动生效，成为省又省APP的正式注册用户，您开始并享受各类服务。
+
+\n\n一、	我的权益：\n
+
+\n1，	我本人自愿申请加入省又省促销商品购物平台,同时,我随时可以退出平台；\n2，	在省又省平台购买的商品或服务项目我有权要求在品质、价格、包装等方面完全符合国家相关法律的规定；
+\n3，	在合法合规情况下，我有权在省又省平台或其商户合作者的实体商铺店里不购买或拒收任何商品或服务项目；
+\n4，	省又省或其入驻商铺的商品或服务项目一旦损害了我的权益，我有权要求无条件退换货或不予支付货款，同时有权提出法律诉讼；
+\n5，	我有权要求省又省及其合作的商铺实体店完全兑现其在省又省平台促销的广告或宣传的内容,否则,我有权要求赔偿我的损失；\n6，	我有权得到省又省发行的“贡献”积分，包括App转发、商品的评价和在省又省平台支付货款或服务进行消费，同时享受积分通用的方式，使用我本人的积分抵扣现金在省又省所有商铺收买任意提袋或非提袋商品和用我本人的积分抵扣运费，并且知晓我的积分永远不过期；
+\n7，	作为省由省的注册用户，我有享用省又省给予我的积分累积、积分抵扣、积分抵扣送货费、年终现金奖励等促销活动的权益。
+\n8，	通过省又省APP，我知晓可以从省又省平台商户购买以下价格优惠的商品或服务产品，品种（以发布在省又省平台上出售的商品(提袋)或服务产品（非提袋）的品种、品牌及数量为准）包括但不限于如下：
+
+\t\n1）家庭套装商品；
+\t\n2）临近保质期商品；
+\t\n3）库存变现商品；
+\t\n4）节假日促销商品；
+\t\n5）VIP客户回馈商品；
+\t\n6）残值商品；
+\t\n7）预售商品；
+\t\n8）团购商品；
+\t\n9）公益商品；
+\t\n10）新上市商品；
+\t\n11）信用卡支付商品；
+\t\n12）关门歇业商品；
+\t\n13）二手商品；
+\t\n14）寄售商品；
+\t\n15）散装商品；
+\t\n16）包装破损商品；
+\t\n17）厂家（品牌）促销品；
+\t\n18）新店开业奖励客户商品；
+\t\n19）老人、学生、失业、军人及劳模特殊优待商品；\n20）拍卖商品；
+\t\n21）特殊庆贺日商品（如学生学校开学或放假等）；\n22）亲子商品；
+\t\n23）会员优惠商品；
+\t\n24）礼品；
+\t\n25）外汇购物商品；
+\t\n26）其他商品或服务产品。
+
+\n\n二、我的义务：\n
+
+\n1，	在省又省平台下单购买商品或服务后，是我本人的选择，我有义务按时按量收货并支付全额货款和服务费如送货费；
+\n2，	我有义务按省又省的积分管理办法执行关于积分赚取、累积、使用抵扣的规定事项；
+\n3，	我有义务在任何情况下不在省又省平台发布或评价有损他人形象、利益及安全的言论或其它图文、视频资料；否则，我承担一切经济及法律后果;
+\n 4，	我有义务积极、友好、协商、支持和配合省又省平台客服人员及省又省商户解决任何交易的争议。
+
+
+\n\n\n省又省运营机构保留该协议各项条款的最终的解释权和更改权。\n\n"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/login_regin_text" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="省又省"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/login_regin_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="2016年12月22日星期四"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/login_regin_text" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
