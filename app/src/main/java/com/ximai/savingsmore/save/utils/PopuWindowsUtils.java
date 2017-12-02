@@ -189,7 +189,7 @@ public class PopuWindowsUtils implements View.OnClickListener {
             }
 
             if (null != list.get(position).SaleCount) {
-                sales_number.setText("销量:" + list.get(position).SaleCount);
+                sales_number.setText("销量:" + list.get(position).SaleCount+"件");
             }
             if (null != list.get(position).Preferential) {
                 zhekou.setText(list.get(position).PromotionTypeName);
@@ -198,10 +198,10 @@ public class PopuWindowsUtils implements View.OnClickListener {
                 shop_name.setText(list.get(position).StoreName);
             }
             if (null != list.get(position).FavouriteCount) {
-                shou_chang.setText(list.get(position).FavouriteCount);
+                shou_chang.setText("赞 "+list.get(position).FavouriteCount);
             }
-            liulan.setText(list.get(position).HitCount);
-            share.setText(list.get(position).SharedCount);
+            liulan.setText("评论 "+list.get(position).HitCount);
+            share.setText("分享 "+list.get(position).SharedCount);
             if (null != list.get(position).Address) {
                 location.setText(list.get(position).Address);
             }
