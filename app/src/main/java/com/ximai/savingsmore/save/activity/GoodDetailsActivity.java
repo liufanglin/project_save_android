@@ -69,8 +69,8 @@ public class GoodDetailsActivity extends Activity implements View.OnClickListene
     GoodDetial goodDetial;
     private FlowView mTopAdsView;
     private ImageView back, share, collect, big_imae, message, phone, comment1, comment2, comment3, comment4, comment5;
-    private TextView name, price, high_price, dazhe_style, start_time, end_time, comment_number,
-            store_name, location, distance, pingpai, danwei, style, reson, bizhong, explain, descript, flow_me, service, score;
+    private TextView name, price, high_price, dazhe_style, start_time, end_time, comment_number,tv_cuxiao_name,
+            store_name, location, distance, pingpai, danwei, style, reson, bizhong, explain, descript, flow_me, service, score,tv_more;
     private Boolean isFavourite;
     private RelativeLayout comment;
     private LinearLayout comment_score;
@@ -104,6 +104,8 @@ public class GoodDetailsActivity extends Activity implements View.OnClickListene
         comment_number = (TextView) findViewById(R.id.comment_number);
         store_name = (TextView) findViewById(R.id.store_name);
         location = (TextView) findViewById(R.id.location);
+        tv_cuxiao_name= (TextView) findViewById(R.id.tv_cuxiao_name);
+        tv_more= (TextView) findViewById(R.id.tv_more);
         distance = (TextView) findViewById(R.id.distance);
         pingpai = (TextView) findViewById(R.id.pingpai);
         danwei = (TextView) findViewById(R.id.danwei);
@@ -138,6 +140,7 @@ public class GoodDetailsActivity extends Activity implements View.OnClickListene
         high_price.getPaint().setFlags(Paint.STRIKE_THRU_TEXT_FLAG);
         scrollView.setVerticalScrollBarEnabled(false);
         back.setOnClickListener(this);
+        tv_more.setOnClickListener(this);
         id = getIntent().getStringExtra("id");
         if (null != getIntent().getStringExtra("isCar") && getIntent().getStringExtra("isCar").equals("true")) {
             buy.setText("加入购物车");
@@ -160,13 +163,14 @@ public class GoodDetailsActivity extends Activity implements View.OnClickListene
                     if (null != goodDetial) {
                         if (null != goodDetial.Name) {
                             name.setText(goodDetial.Name);
+                            tv_cuxiao_name.setText("促销品名: "+goodDetial.Name);
                         }
                         sales_count.setText("销量:" + goodDetial.SaleCount);
                         price.setText("￥" + goodDetial.Price);
                         high_price.setText("原价: " + goodDetial.OriginalPrice);
                         dazhe_style.setText(goodDetial.Preferential);
                         comment_number.setText(goodDetial.CommentCount + "人评论");
-                        location.setText(goodDetial.Address);
+                        location.setText("促销地点: "+goodDetial.Address);
                         pingpai.setText(goodDetial.Name);
                         danwei.setText(goodDetial.Unit.Name);
                         bizhong.setText(goodDetial.Currency.Name);
@@ -178,7 +182,7 @@ public class GoodDetailsActivity extends Activity implements View.OnClickListene
                         descript.setText(goodDetial.Description);
                         start_time.setText(goodDetial.StartTimeName);
                         end_time.setText(goodDetial.EndTimeName);
-                        store_name.setText(goodDetial.User.ShowName);
+                        store_name.setText("商家名称: "+goodDetial.User.ShowName);
                         distance.setText(goodDetial.Distance);
                         LinearLayout.LayoutParams layout = new LinearLayout.LayoutParams(
                                 50, 50);
@@ -433,6 +437,13 @@ public class GoodDetailsActivity extends Activity implements View.OnClickListene
                 leave.putExtra("Id", goodDetial.User.Id);
                 startActivity(leave);
                 setIconWindow.dismiss();
+                break;
+            case R.id.tv_more:
+                Intent intent2 = new Intent(GoodDetailsActivity.this, BusinessMessageActivity.class);
+                Bundle bundle2 = new Bundle();
+                bundle2.putSerializable("id", goodDetial.User.Id);
+                intent2.putExtras(bundle2);
+                startActivity(intent2);
                 break;
         }
     }

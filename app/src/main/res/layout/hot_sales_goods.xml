@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="提袋商品"
+            android:text="产品类商品"
             android:textColor="@color/text_black"
             android:textSize="@dimen/login_regin_text" />
 
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="非提袋商品"
+            android:text="服务类袋商品"
             android:textColor="@color/text_black"
             android:textSize="@dimen/login_regin_text" />
     </LinearLayout>

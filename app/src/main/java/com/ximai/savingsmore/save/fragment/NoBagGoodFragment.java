@@ -87,7 +87,7 @@ public class NoBagGoodFragment extends Fragment {
                 viewHodel.name.setText(list.get(position).Name);
             }
             if (null != list.get(position).SaleCount) {
-                viewHodel.sales_number.setText("销量:" + list.get(position).SaleCount);
+                viewHodel.sales_number.setText("销量:" + list.get(position).SaleCount+"件");
             }
             if (null != list.get(position).Preferential) {
                 viewHodel.zhekou.setText(list.get(position).PromotionTypeName);
@@ -96,10 +96,10 @@ public class NoBagGoodFragment extends Fragment {
                 viewHodel.shop_name.setText(list.get(position).StoreName);
             }
             if (null != list.get(position).FavouriteCount) {
-                viewHodel.shou_chang.setText(list.get(position).FavouriteCount);
+                viewHodel.shou_chang.setText("赞 "+list.get(position).FavouriteCount);
             }
-            viewHodel.liulan.setText(list.get(position).HitCount);
-            viewHodel.share.setText(list.get(position).SharedCount);
+            viewHodel.liulan.setText("评论 "+list.get(position).HitCount);
+            viewHodel.share.setText("分享 "+list.get(position).SharedCount);
             if (null != list.get(position).Address) {
                 viewHodel.location.setText(list.get(position).Address);
             }

@@ -156,45 +156,53 @@
                 android:layout_height="35dp">
 
                 <LinearLayout
-                    android:layout_width="0dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
-                    android:layout_weight="1"
                     android:orientation="horizontal">
 
-                    <ImageView
-                        android:layout_width="15dp"
-                        android:layout_height="15dp"
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="始"
+                        android:padding="2dp"
+                        android:textColor="#ffffff"
                         android:layout_gravity="center"
-                        android:background="@mipmap/clock" />
+                        android:textSize="10dp"
+                        android:background="@drawable/time_end_bg"/>
 
                     <TextView
                         android:id="@+id/start_time"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="5dp" />
+                        android:text="2017-3-1"
+                        android:layout_marginLeft="10dp" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="0dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="20dp"
-                    android:layout_weight="1"
                     android:orientation="horizontal">
 
-                    <ImageView
-                        android:layout_width="15dp"
-                        android:layout_height="15dp"
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="终"
+                        android:padding="2dp"
+                        android:textColor="#ffffff"
                         android:layout_gravity="center"
-                        android:background="@mipmap/clock" />
+                        android:textSize="10dp"
+                        android:background="@drawable/time_end_bg"/>
 
                     <TextView
                         android:id="@+id/end_time"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="5dp" />
+                        android:text="2017-10-20"
+                        android:layout_marginLeft="10dp" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -264,6 +272,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    style="@style/text_balck_fourteen"
                     android:text="商家信息" />
             </LinearLayout>
 
@@ -286,16 +295,37 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/store_name"
+                    <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/text_black" />
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/store_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="商家名称"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_more"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12dp"
+                            android:textColor="@color/mianColor"
+                            android:layout_marginLeft="10dp"
+                            android:text="更多"/>
+
+                    </LinearLayout>
+
+
+
 
                     <TextView
                         android:id="@+id/location"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:text="张扬路"
                         android:layout_marginTop="5dp" />
 
                     <LinearLayout
@@ -310,11 +340,17 @@
                             android:background="@mipmap/position2" />
 
                         <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="距离"/>
+
+                        <TextView
                             android:id="@+id/distance"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="10dp"
                             android:text="0" />
                     </LinearLayout>
                 </LinearLayout>
@@ -357,12 +393,13 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:layout_marginLeft="10dp">
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+
                     android:layout_gravity="center"
+                    style="@style/text_balck_fourteen"
                     android:text="商品信息" />
             </LinearLayout>
 
@@ -379,17 +416,24 @@
                 android:paddingLeft="10dp"
                 android:paddingTop="10dp">
 
+                <TextView
+                    android:id="@+id/tv_cuxiao_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="促销品名: 吊坠"/>
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
                     android:orientation="horizontal">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="商品品牌: "
-                        android:textColor="@color/text_black" />
+                         />
 
                     <TextView
                         android:id="@+id/pingpai"
@@ -408,7 +452,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="计量单位: "
-                        android:textColor="@color/text_black" />
+                         />
 
                     <TextView
                         android:id="@+id/danwei"
@@ -426,8 +470,8 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="币种: "
-                        android:textColor="@color/text_black" />
+                        android:text="计价币种: "
+                         />
 
                     <TextView
                         android:id="@+id/bizhong"
@@ -446,7 +490,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="促销形式: "
-                        android:textColor="@color/text_black" />
+                         />
 
                     <TextView
                         android:id="@+id/style"
@@ -465,7 +509,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="促销原因: "
-                        android:textColor="@color/text_black" />
+                        />
 
 
                     <TextView
@@ -488,10 +532,9 @@
                 android:layout_marginLeft="10dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="促销说明" />
+                    style="@style/text_balck_fourteen"
+                    android:text="促销活动说明" />
             </LinearLayout>
 
             <View
@@ -503,6 +546,7 @@
                 android:id="@+id/explain"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="10dp"
                 android:layout_marginBottom="20dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="5dp"
@@ -523,7 +567,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="商品描述" />
+                    android:text="促销商品描述" />
             </LinearLayout>
 
             <View
@@ -537,6 +581,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:layout_marginLeft="10dp"
+                android:textSize="10dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginTop="20dp" />
 

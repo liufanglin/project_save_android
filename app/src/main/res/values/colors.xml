@@ -34,4 +34,6 @@
     <color name="point_bottom_color">#FFFFBB</color>
     <color name="point_text">#E6941A</color>
     <color name="buy">#FFCC00</color>
+    <color name="view_line_bg">#e5e5e5</color>
+
 </resources>

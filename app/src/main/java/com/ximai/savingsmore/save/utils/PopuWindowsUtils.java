@@ -58,7 +58,7 @@ public class PopuWindowsUtils implements View.OnClickListener {
         View view = LayoutInflater.from(context).inflate(R.layout.item_share_layout, null);
         viewList = new ArrayList<View>();
         for (int i = 0; i < list.size(); i++) {
-            View item = LayoutInflater.from(context).inflate(R.layout.good_item, null);
+            View item = LayoutInflater.from(context).inflate(R.layout.map_goods_item, null);
             viewList.add(item);
         }
         myAdapter = new MyAdapter();
